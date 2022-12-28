@@ -1,0 +1,302 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.header{
+    width: 100%;
+    background-color: #2B2B2B;
+}
+
+.nav-bar{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ul-1{
+    list-style: none;
+    display: flex;
+    color: white;
+    align-items: center;
+    gap: 10px;
+    margin-right: 50px;
+}
+
+.ul-1 li a{
+    text-decoration: none;
+}
+
+.ul-1 li{
+    padding: 22px 20px;
+}
+
+img.storefront{
+    width: 32px;
+    height: 32px;
+}
+
+img.nft-marketplace{
+    width: 200px;
+    height: 20px;
+}
+
+.button-1{
+    display: flex;
+    align-items: center;
+    background-color: #A259FF;
+    border-radius: 20px;
+    width: 152px;
+    padding: 19px 30px;
+    border: none;
+    justify-content: space-around;
+}
+
+a.Sing-up{
+    color: white;
+}
+
+.logo{
+    gap: 12px;
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.section{
+    display: flex;
+    width: 100%;
+    background-color: #2B2B2B;
+
+}
+
+.section-details{
+    position: relative;
+    margin: auto;
+    display: flex;
+    width: 1050px;
+    padding: 80px 0;
+    gap: 30px;
+}
+
+.img1 img{
+    width: 510px;
+    height: 401px;
+}
+
+.article{
+    width: 510px;
+    color: white;
+}
+
+.article h1{
+    font-size: 67px;
+}
+
+.article p{
+    font-size: 22px;
+    font-weight: 400px;
+    margin-top: 20px;
+}
+
+.article button{
+    color: white;
+    width: 224px;
+    height: 60px;
+    background-color: #A259FF;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.under-img{
+    width: 510px;
+    height: 109px;
+    background-color: #3B3B3B;
+    border-radius: 0px 0px 20px 20px;
+    color: white;
+}
+
+.space-walking{
+    font-size: 22px;
+    padding: 22px 20px 10px 20px;
+}
+
+.animakid{
+    display: flex;
+    align-items: center;
+    gap:12px;
+    padding:0 20px 22px 20px;
+}
+
+.under-button{
+    display: flex;
+    gap: 30px;
+    padding-top: 30px;
+}
+
+p.more-weight{
+    font-weight: 700;
+
+}
+
+p.less-weight{
+    font-size: 23.99px;
+}
+
+.section-1{
+    width: 100%;
+    background-color: #2B2B2B;
+    color: white;
+}
+
+.header-1{
+    margin: auto;
+    width: 1046px;
+    padding: 80px 0px 0px;
+}
+
+p.above{
+    font-weight: 600;
+    font-size: 38px;
+    padding-bottom: 10px;
+}
+
+p.under{
+    font-size: 22px;
+}
+
+.row{
+    margin: auto;
+    width: 330px;
+    margin-top: 60px;
+    padding-bottom: 80px;
+}
+
+.pic-0{
+    width: 330px;
+    height: 330px;
+    margin-bottom: 15px;
+}
+
+.pic-1{
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+}
+
+.pics{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.etc{
+    display: flex;
+    background-color: #A259FF;
+    justify-content: center;
+    align-items: center;
+}
+
+.under-1{
+    display: flex;
+    align-items: center;
+}
+
+.under-1 img{
+    width: 24px;
+    height: 24px;
+}
+
+p.above-1{
+    padding: 15px 0 10px 0;
+}
+
+.all-row{
+    width: 1050px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.white{
+    color: white;
+}
+
+.header-2{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 1050px;
+    color: white;
+    padding-top: 80px;
+    padding-bottom: 60px;
+}
+
+.section-2{
+    background-color: #2B2B2B;
+}
+
+.header-2 button{
+    width: 247px;
+    height: 60px;
+    border: 2px solid #A259FF;
+    border-radius: 20px;
+    background-color: transparent;
+    margin-top: 31px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.header-2 div h1{
+    font-weight: 600;
+    font-size: 38px;
+    padding-bottom: 10px;
+}
+
+.header-2 div p{
+    font-size: 22px;
+}
+
+.container{
+    width: 1050px;
+    display: grid;
+    grid-template-rows: auto auto auto ;
+    grid-template-columns: auto auto auto auto;
+    gap: 30px;
+    margin: auto;
+}
+
+.grid-item{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 240px;
+    height: 238px;
+    background: #3B3B3B;
+    border-radius: 20px;
+    color: white;
+}
+
+.grid-item img{
+    width: 120px;
+    height: 120px;
+    border-radius: 100px;
+    margin-left: 5px;
+}
+
+.grid-item h1{
+    text-align: center;
+}
+
+.text{
+    padding-top: 20px;
+}
